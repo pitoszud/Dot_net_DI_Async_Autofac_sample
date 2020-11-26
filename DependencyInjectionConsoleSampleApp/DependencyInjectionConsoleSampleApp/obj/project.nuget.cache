@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RRkZWQlRZiOvLg7jRQDYT/PA7OLZOi3/JdAeY7uMiUoynsr2hiWe9werqIkMac/phWOSH2/ooQytIDF1logpJg==",
+  "success": true,
+  "projectFilePath": "E:\\.Net\\DependencyInjectionConsoleSampleApp\\DependencyInjectionConsoleSampleApp\\DependencyInjectionConsoleSampleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patry\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\patry\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

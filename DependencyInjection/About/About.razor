@@ -1,0 +1,33 @@
+﻿@page "/about"
+@inject HttpClient Http
+
+<h3>About</h3>
+
+@if (AboutList == null)
+{
+    <p><em>Loading About List...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednsday</th>
+                <th>Thursday</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var aboutItem in AboutList)
+            {
+                <tr>
+                    <td>@aboutItem</td>
+                    <td>@aboutItem</td>
+                    <td>@aboutItem</td>
+                    <td>@aboutItem</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
